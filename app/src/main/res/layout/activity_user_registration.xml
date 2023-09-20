@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".UserRegistration"
+        android:paddingTop="60dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="25dp"
+        android:background="@drawable/custom_backgrond2">
+        <TextView
+            android:id="@+id/fnamelbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_name"
+            android:textSize="22sp"
+            android:textColor="#350200"/>
+
+        <EditText
+            android:id="@+id/fName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_first_name"
+            android:textSize="20sp"
+            android:layout_below="@+id/fnamelbl"/>
+        <TextView
+            android:id="@+id/lnamelbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/last_name"
+            android:textSize="22sp"
+            android:textColor="#350200"
+            android:layout_below="@id/fName"/>
+
+        <EditText
+            android:id="@+id/lName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_last_name"
+            android:textSize="20sp"
+            android:layout_below="@+id/lnamelbl"/>
+
+        <TextView
+            android:id="@+id/contactlbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/contact_number"
+            android:textSize="22sp"
+            android:textColor="#350200"
+            android:layout_below="@id/lName"/>
+
+        <EditText
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_contact_number"
+            android:textSize="20sp"
+            android:layout_below="@+id/contactlbl"/>
+        <TextView
+            android:id="@+id/niclbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/nic_number"
+            android:textSize="22sp"
+            android:textColor="#350200"
+            android:layout_below="@id/contact"/>
+
+        <EditText
+            android:id="@+id/nic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_nic_number"
+            android:textSize="20sp"
+            android:layout_below="@+id/niclbl"/>
+
+        <TextView
+            android:id="@+id/addresslbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/address"
+            android:textSize="22sp"
+            android:textColor="#350200"
+            android:layout_below="@id/nic"/>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_address"
+            android:textSize="20sp"
+            android:layout_below="@+id/addresslbl"/>
+
+        <TextView
+            android:id="@+id/emaillbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/e_mail_address"
+            android:textSize="22sp"
+            android:textColor="#350200"
+            android:layout_below="@id/address"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_e_mail_address"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:layout_below="@+id/emaillbl"/>
+
+        <TextView
+            android:id="@+id/specialNotelbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/health_issues"
+            android:textSize="22sp"
+            android:textColor="#350200"
+            android:layout_below="@id/email"/>
+
+        <EditText
+            android:id="@+id/spNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_about_any_health_issue_you_have"
+            android:textSize="20sp"
+            android:layout_below="@+id/specialNotelbl"/>
+
+
+        <TextView
+            android:id="@+id/pwdlbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/password"
+            android:textSize="22sp"
+            android:textColor="#350200"
+            android:layout_below="@id/spNote"/>
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_password"
+            android:textSize="20sp"
+            android:layout_below="@+id/pwdlbl"/>
+
+        <TextView
+            android:id="@+id/pwdconlbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/confirm_password"
+            android:textSize="22sp"
+            android:textColor="#350200"
+            android:layout_below="@id/pwd"/>
+
+        <EditText
+            android:id="@+id/pwdcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_password"
+            android:textSize="20sp"
+            android:layout_below="@+id/pwdconlbl"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/userRegisterbtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pwdcon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+</ScrollView>

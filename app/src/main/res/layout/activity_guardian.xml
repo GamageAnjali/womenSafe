@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".UserDashboard"
+    android:background="@drawable/custom_backgrond2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Guardian"
+        android:paddingTop="180dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="25dp">
+
+        <TextView
+            android:id="@+id/gnamelbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guardian_s_name"
+            android:textSize="22sp"
+            android:textColor="#350200"/>
+
+        <EditText
+            android:id="@+id/gName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_guardian_s_name"
+            android:textSize="20sp"
+            android:layout_below="@+id/gnamelbl"/>
+
+        <TextView
+            android:id="@+id/gcontactlbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_number"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:textColor="#350200"
+            android:layout_below="@+id/gName"/>
+
+        <EditText
+            android:id="@+id/gcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_guardian_s_contact_number"
+            android:textSize="20sp"
+            android:layout_below="@+id/gcontactlbl"/>
+
+        <TextView
+            android:id="@+id/gniclbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nic_number"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:textColor="#350200"
+            android:layout_below="@+id/gcontact"/>
+
+        <EditText
+            android:id="@+id/gnic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_guardian_s_nic_number"
+            android:textSize="20sp"
+            android:layout_below="@+id/gniclbl"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/guardianRegisterbtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gnic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/add_details"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="start">
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

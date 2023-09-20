@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_login"
+    android:background="@drawable/custom_background">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backtohomebtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_baseline_home_24"/>
+
+    <EditText
+        android:id="@+id/userUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/username"
+
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/password"
+
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:layout_below="@+id/userUsername"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/userLoginbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/log_in"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/createaccTextVeiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/if_you_don_t_have_an_account"
+        android:textSize="20sp"
+        android:textColor="#350200"
+        android:layout_below="@+id/userLoginbtn"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gotouserRegisterbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/createaccTextVeiw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
