@@ -44,4 +44,5 @@
     <string name="not_sure_what_to_do">Not sure what to do?</string>
     <string name="send_an_alert_with_or_without_voice_messege">Send an alert with or without voice messege</string>
     <string name="speak_clamly_to_the_person_until_first_aider_arives">Speak clamly to the person until first aider arives</string>
+    <string name="send_the_alert_if_you_don_t_want_to_add_a_voice_message_or_are_finished_recording_it">Send the alert if you don\'t want to add a voice message or are finished recording it.</string>
 </resources>

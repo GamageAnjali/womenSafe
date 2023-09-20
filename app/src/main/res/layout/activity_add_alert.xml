@@ -29,7 +29,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="20dp"
-            android:src="@drawable/voice"
+            android:src="@drawable/voiceRecording"
             android:layout_below="@+id/voicerecordlbl"
             android:layout_centerHorizontal="true"/>
 
@@ -83,7 +83,7 @@
             android:id="@+id/alertlbl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/if_you_do_not_want_add_a_voice_message_or_finished_recording_the_message_send_the_alert"
+            android:text="@string/send_the_alert_if_you_don_t_want_to_add_a_voice_message_or_are_finished_recording_it"
             android:textAlignment="center"
             android:layout_marginTop="30dp"
             android:textSize="22sp"
