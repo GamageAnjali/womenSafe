@@ -40,9 +40,9 @@
     <string name="alert">ALERT</string>
     <string name="admin">ADMIN</string>
     <string name="user">USER</string>
-    <string name="emergency_help_needed">Emergency help needed?</string>
-    <string name="not_sure_what_to_do">Not sure what to do?</string>
-    <string name="send_an_alert_with_or_without_voice_messege">Send an alert with or without voice messege</string>
-    <string name="speak_clamly_to_the_person_until_first_aider_arives">Speak clamly to the person until first aider arives</string>
+    <string name="press_for_safety">Press for Safety</string>
+    <string name="need_assistance">Need Assistance?</string>
+    <string name="send_emergency_alert_with_or_without_voice_messege">Send Emergency Alert! With or Without Voice Messege</string>
+    <string name="stay_calm_until_help_arrives_support_team_is_on_the_way">Stay Calm Until Help Arrives,    Support Team is on the Way!</string>
     <string name="send_the_alert_if_you_don_t_want_to_add_a_voice_message_or_are_finished_recording_it">Send the alert if you don\'t want to add a voice message or are finished recording it.</string>
 </resources>
