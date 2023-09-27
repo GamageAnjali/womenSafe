@@ -17,12 +17,12 @@
 
         <TextView
             android:id="@+id/voicerecordlbl"
-            android:layout_width="wrap_content"
+            android:layout_width="332dp"
             android:layout_height="wrap_content"
-            android:text="@string/if_you_want_add_a_voice_message"
+            android:text="@string/add_a_vocal_messege"
             android:textAlignment="center"
-            android:textSize="22sp"
-            android:textColor="#350200"/>
+            android:textColor="#350200"
+            android:textSize="22sp" />
 
         <ImageView
             android:id="@+id/voiceimg"
