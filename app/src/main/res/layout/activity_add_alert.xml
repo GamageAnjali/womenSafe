@@ -83,12 +83,12 @@
             android:id="@+id/alertlbl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/send_the_alert_if_you_don_t_want_to_add_a_voice_message_or_are_finished_recording_it"
+            android:layout_below="@+id/vcrecordbtn"
+            android:layout_marginTop="25dp"
+            android:text="@string/hit_the_alert_if_no_voice_or_done_recording"
             android:textAlignment="center"
-            android:layout_marginTop="30dp"
-            android:textSize="22sp"
             android:textColor="#350200"
-            android:layout_below="@+id/vcrecordbtn"/>
+            android:textSize="22sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/addalertbtn"

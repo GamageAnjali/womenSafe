@@ -45,4 +45,5 @@
     <string name="send_emergency_alert_with_or_without_voice_messege">Send Emergency Alert! With or Without Voice Messege</string>
     <string name="stay_calm_until_help_arrives_support_team_is_on_the_way">Stay Calm Until Help Arrives,    Support Team is on the Way!</string>
     <string name="send_the_alert_if_you_don_t_want_to_add_a_voice_message_or_are_finished_recording_it">Send the alert if you don\'t want to add a voice message or are finished recording it.</string>
+    <string name="hit_the_alert_if_no_voice_or_done_recording">Hit the alert if no voice or done recording.</string>
 </resources>
