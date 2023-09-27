@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="@string/first_name"
             android:textSize="22sp"
-            android:textColor="#350200"/>
+            android:textColor="#BF3880"/>
 
         <EditText
             android:id="@+id/fName"
@@ -36,7 +36,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/last_name"
             android:textSize="22sp"
-            android:textColor="#350200"
+            android:textColor="#BF3880"
             android:layout_below="@id/fName"/>
 
         <EditText
@@ -54,7 +54,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/contact_number"
             android:textSize="22sp"
-            android:textColor="#350200"
+            android:textColor="#BF3880"
             android:layout_below="@id/lName"/>
 
         <EditText
@@ -71,7 +71,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/nic_number"
             android:textSize="22sp"
-            android:textColor="#350200"
+            android:textColor="#BF3880"
             android:layout_below="@id/contact"/>
 
         <EditText
@@ -89,7 +89,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/address"
             android:textSize="22sp"
-            android:textColor="#350200"
+            android:textColor="#BF3880"
             android:layout_below="@id/nic"/>
 
         <EditText
@@ -107,7 +107,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/e_mail_address"
             android:textSize="22sp"
-            android:textColor="#350200"
+            android:textColor="#BF3880"
             android:layout_below="@id/address"/>
 
         <EditText
@@ -126,7 +126,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/health_issues"
             android:textSize="22sp"
-            android:textColor="#350200"
+            android:textColor="#BF3880"
             android:layout_below="@id/email"/>
 
         <EditText
@@ -145,7 +145,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/password"
             android:textSize="22sp"
-            android:textColor="#350200"
+            android:textColor="#BF3880"
             android:layout_below="@id/spNote"/>
 
         <EditText
