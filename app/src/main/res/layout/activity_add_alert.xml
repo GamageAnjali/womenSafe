@@ -7,43 +7,42 @@
     android:id="@+id/drawer_layout"
     tools:context=".add_alert"
     android:background="@drawable/custom_backgrond2">
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingStart="40dp"
+        tools:context=".AddAlert"
         android:paddingTop="170dp"
-        android:paddingEnd="25dp"
-        tools:context=".AddAlert">
+        android:paddingStart="40dp"
+        android:paddingEnd="25dp">
 
         <TextView
             android:id="@+id/voicerecordlbl"
-            android:layout_width="333dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/add_a_vocal_message"
+            android:text="@string/if_you_want_add_a_voice_message"
             android:textAlignment="center"
-            android:textColor="#BF3880"
-            android:textSize="22sp" />
+            android:textSize="22sp"
+            android:textColor="#350200"/>
 
         <ImageView
             android:id="@+id/voiceimg"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_below="@+id/voicerecordlbl"
-            android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:src="@drawable/voiceRecording" />
+            android:src="@drawable/voiceRecording"
+            android:layout_below="@+id/voicerecordlbl"
+            android:layout_centerHorizontal="true"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/vcrecordbtn"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/voiceimg"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="22dp"
-            android:background="@drawable/custom_button"
             android:onClick="btnRecordPressed"
+            android:layout_marginTop="22dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/custom_button"
             android:text="@string/record"
+            android:layout_below="@+id/voiceimg"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="20sp" />
@@ -52,13 +51,13 @@
             android:id="@+id/vcstopbtn"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/voiceimg"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="22dp"
-            android:layout_toEndOf="@+id/vcrecordbtn"
-            android:background="@drawable/custom_button"
+            android:layout_marginStart="20dp"
             android:onClick="btnStopPressed"
+            android:layout_below="@+id/voiceimg"
+            android:layout_toEndOf="@+id/vcrecordbtn"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/custom_button"
             android:text="@string/stop"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -69,12 +68,12 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/voiceimg"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="22dp"
             android:layout_toEndOf="@+id/vcstopbtn"
-            android:background="@drawable/custom_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="20dp"
             android:onClick="btnPlayPressed"
+            android:background="@drawable/custom_button"
             android:text="@string/play"
             android:textAllCaps="false"
             android:textColor="@color/white"
@@ -88,23 +87,22 @@
             android:layout_marginTop="25dp"
             android:text="@string/hit_the_alert_if_no_voice_or_done_recording"
             android:textAlignment="center"
-            android:textColor="#BF3880"
+            android:textColor="#350200"
             android:textSize="22sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/addalertbtn"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
             android:layout_below="@+id/alertlbl"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="22dp"
             android:background="@drawable/custom_button"
             android:text="@string/alert"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="25sp" />
     </RelativeLayout>
-
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view1"
         android:layout_width="wrap_content"
