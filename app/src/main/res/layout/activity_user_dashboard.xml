@@ -23,6 +23,7 @@
             android:text="@string/press_for_safety"
             android:textAlignment="center"
             android:textSize="36sp"
+            android:textColor="#BF3880"
             android:textStyle="bold" />
 
         <ImageView
@@ -59,8 +60,7 @@
             android:text="@string/send_emergency_alert_with_or_without_voice_messege"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textSize="24sp"/>
 
         <TextView
             android:id="@+id/contentlbl3"
@@ -74,8 +74,7 @@
             android:text="@string/stay_calm_until_help_arrives_support_team_is_on_the_way"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textSize="24sp"/>
 
     </RelativeLayout>
 

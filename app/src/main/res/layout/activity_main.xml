@@ -12,32 +12,7 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:src="@drawable/SheRescueLogo"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="210dp"
         android:layout_centerHorizontal="true"/>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/gotoadminLoginbtn"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/applogo"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/custom_button"
-        android:text="@string/admin"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        android:textAllCaps="false"/>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/gotouserLoginbtn"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/gotoadminLoginbtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/custom_button"
-        android:text="@string/user"
-        android:textColor="@color/white"
-        android:textSize="30sp"/>
 
 </RelativeLayout>
