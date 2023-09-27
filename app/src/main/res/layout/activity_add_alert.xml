@@ -21,8 +21,9 @@
             android:layout_height="wrap_content"
             android:text="@string/add_a_vocal_messege"
             android:textAlignment="center"
-            android:textColor="#350200"
-            android:textSize="22sp" />
+            android:textColor="#BF3880"
+            android:textStyle="bold"
+            android:textSize="30sp" />
 
         <ImageView
             android:id="@+id/voiceimg"
@@ -87,7 +88,7 @@
             android:layout_marginTop="25dp"
             android:text="@string/hit_the_alert_if_no_voice_or_done_recording"
             android:textAlignment="center"
-            android:textColor="#350200"
+            android:textColor="#BF3880"
             android:textSize="22sp" />
 
         <androidx.appcompat.widget.AppCompatButton
