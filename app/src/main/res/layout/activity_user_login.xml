@@ -58,7 +58,7 @@
         android:layout_marginTop="30dp"
         android:text="@string/don_t_have_an_account"
         android:textSize="20sp"
-        android:textColor="#350200"
+        android:textColor="#BF3880"
         android:layout_below="@+id/userLoginbtn"/>
 
     <androidx.appcompat.widget.AppCompatButton
