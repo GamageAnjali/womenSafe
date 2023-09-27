@@ -8,7 +8,7 @@
     <string name="click_to_register">Click to register</string>
     <string name="log_out">Log Out</string>
     <string name="log_in">Log In</string>
-    <string name="if_you_don_t_have_an_account">If you don\'t have an account</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
     <string name="username">Username</string>
     <string name="first_name">First Name</string>
     <string name="type_your_first_name">Type your first name</string>
